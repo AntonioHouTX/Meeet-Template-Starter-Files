@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&family=Sen:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Sen:wght@700&display=swap");
 
 * {
   margin: 0;
@@ -8,20 +8,72 @@
 
 body {
   background-color: rgb(7, 37, 51);
+  padding: 1.5rem;
+  /* position: relative; */
+}
+
+.logo {
+  margin-bottom: 4rem;
+}
+
+img {
+  display: block;
+  /* position: relative; */
+}
+
+.guy {
+  transform: translate(2rem);
+
+}
+
+.girl1 {
+  transform: translate(14rem, -9rem);
 }
 
 h1 {
   font-family: "Sen", sans-serif;
   color: rgb(53, 246, 188);
+  font-size: 3.5rem;
+  transform: translate(0, -12.5rem);
 }
 
 p {
   font-family: "Inter", sans-serif;
   color: rgb(154, 175, 186);
+  font-size: 1.5rem;
+  line-height: 2rem;
+  transform: translate(0, -10rem);
 }
 
 .button {
   background-color: rgb(53, 246, 188);
   font-family: "Inter", sans-serif;
   color: rgb(7, 37, 51);
+  border: none;
+  padding: 1.5rem 2rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border-radius: 5px;
+  transform: translate(0, -8rem);
+}
+
+.girl2 {
+  position: absolute;
+  z-index: -1;
+  width: 45%;
+  transform: translate(13rem, -9rem);
+}
+
+p:last-of-type {
+  transform: translate(4rem, 5rem);
+}
+
+.twitter {
+  transform: translate(0, 7.5rem);
+}
+
+/* DESKTOP MEDIA QUERY */
+
+@media screen and (min-width: 1040px) {
+  
 }
