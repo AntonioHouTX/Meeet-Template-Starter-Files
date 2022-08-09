@@ -1,7 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Sen:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Sen:wght@700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(7, 37, 51);
+}
+
+h1 {
+  font-family: "Sen", sans-serif;
+  color: rgb(53, 246, 188);
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  color: rgb(154, 175, 186);
+}
+
+.button {
+  background-color: rgb(53, 246, 188);
+  font-family: "Inter", sans-serif;
+  color: rgb(7, 37, 51);
 }
