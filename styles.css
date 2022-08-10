@@ -18,11 +18,10 @@ body {
 
 img {
   display: block;
-  /* position: relative; */
 }
 
 .guy {
-  transform: translate(2rem);
+  /* transform: translate(2rem); */
 
 }
 
@@ -72,8 +71,85 @@ p:last-of-type {
   transform: translate(0, 7.5rem);
 }
 
+/* MOBILE MEDIA QUERY */
+
+@media screen and (max-width: 425px){
+  .girl4,
+  .girl3,
+  .guy2 {
+    display: none;
+  }
+}
+
+/* TABLET MEDIA QUERY */
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 2rem 2rem;
+  }
+
+  h1 {
+    font-size: 6rem;
+  }
+}
+
 /* DESKTOP MEDIA QUERY */
 
 @media screen and (min-width: 1040px) {
-  
+  body {
+    padding: 2rem 7rem;
+  }
+
+  .guy {
+    transform: translate(-5rem, 0)
+  }
+
+  .girl1 {
+    transform: translate(61rem, -20rem)
+  }
+
+  .girl4 {
+    transform: translate(50rem, -10rem)
+  }
+
+  h1 {
+    font-size: 9.5rem;
+    transform: translate(1rem, -26rem);
+    width: 75%;
+    line-height: 9rem;
+  }
+
+  p {
+    width: 30%;
+    transform: translate(0, -23rem)
+  }
+
+  .button {
+    transform: translate(0, -21rem)
+  }
+
+  .girl2 {
+    /* position: relative; */
+    /* z-index: -1; */
+    width: 6%;
+    transform: translate(38rem, -53.5rem)
+  }
+
+  p:last-of-type {
+    transform: translate(4rem, -34.5rem);
+  }
+
+  .twitter {
+    transform: translate(0, -32rem)
+  }
+
+  .girl3 {
+    position: absolute;
+    z-index: -1;
+    transform: translate(64rem, -31rem)
+  }
+
+  .guy2 {
+    transform: translate(55rem, -25rem)
+  }
 }
