@@ -9,7 +9,6 @@
 body {
   background-color: rgb(7, 37, 51);
   padding: 1.5rem;
-  /* position: relative; */
 }
 
 .logo {
@@ -18,11 +17,6 @@ body {
 
 img {
   display: block;
-}
-
-.guy {
-  /* transform: translate(2rem); */
-
 }
 
 .girl1 {
@@ -73,7 +67,7 @@ p:last-of-type {
 
 /* MOBILE MEDIA QUERY */
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 425px) {
   .girl4,
   .girl3,
   .guy2 {
@@ -83,13 +77,58 @@ p:last-of-type {
 
 /* TABLET MEDIA QUERY */
 
-@media screen and (max-width: 768px) {
+@media screen and (425px < width <= 768px) {
   body {
     padding: 2rem 2rem;
   }
 
   h1 {
-    font-size: 6rem;
+    font-size: 6.5rem;
+    transform: translate(0, -18rem);
+  }
+
+  .guy {
+    width: 17%;
+    transform: translate(1rem, -3rem);
+  }
+
+  .girl1 {
+    transform: translate(33rem, -20rem);
+  }
+
+  .girl4 {
+    width: 17%;
+    transform: translate(27rem, -3rem);
+  }
+
+  .girl3 {
+    transform: translate(36rem, -32rem);
+  }
+
+  p {
+    width: 70%;
+    transform: translate(0, -23rem);
+  }
+
+  .button {
+    transform: translate(0, -21rem);
+  }
+
+  .girl2 {
+    width: 19%;
+    transform: translate(32rem, -53rem);
+  }
+
+  .guy2 {
+    transform: translate(25rem, -23rem);
+  }
+
+  .twitter {
+    transform: translate(0, -27rem);
+  }
+
+  p:last-of-type {
+    transform: translate(4rem, -29.5rem);
   }
 }
 
@@ -101,15 +140,15 @@ p:last-of-type {
   }
 
   .guy {
-    transform: translate(-5rem, 0)
+    transform: translate(-5rem, 0);
   }
 
   .girl1 {
-    transform: translate(61rem, -20rem)
+    transform: translate(61rem, -20rem);
   }
 
   .girl4 {
-    transform: translate(50rem, -10rem)
+    transform: translate(50rem, -10rem);
   }
 
   h1 {
@@ -121,18 +160,16 @@ p:last-of-type {
 
   p {
     width: 30%;
-    transform: translate(0, -23rem)
+    transform: translate(0, -23rem);
   }
 
   .button {
-    transform: translate(0, -21rem)
+    transform: translate(0, -21rem);
   }
 
   .girl2 {
-    /* position: relative; */
-    /* z-index: -1; */
     width: 6%;
-    transform: translate(38rem, -53.5rem)
+    transform: translate(38rem, -53.5rem);
   }
 
   p:last-of-type {
@@ -140,16 +177,16 @@ p:last-of-type {
   }
 
   .twitter {
-    transform: translate(0, -32rem)
+    transform: translate(0, -32rem);
   }
 
   .girl3 {
     position: absolute;
     z-index: -1;
-    transform: translate(64rem, -31rem)
+    transform: translate(64rem, -31rem);
   }
 
   .guy2 {
-    transform: translate(55rem, -25rem)
+    transform: translate(55rem, -25rem);
   }
 }
