@@ -77,7 +77,7 @@ p:last-of-type {
 
 /* TABLET MEDIA QUERY */
 
-@media screen and (425px < width <= 768px) {
+@media screen and (425px < width < 1024px) {
   body {
     padding: 2rem 2rem;
   }
